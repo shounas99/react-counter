@@ -5,6 +5,6 @@ import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <StrictMode>
-        <FirstApp title='Hi title' subtitle={ 12345 }/>
+        <FirstApp />
     </StrictMode>
 )
