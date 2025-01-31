@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
-import { FirstApp } from './FirstApp'
+import { CounterApp } from './CounterApp';
 import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <StrictMode>
-        <FirstApp />
+        <CounterApp value={ 0 } />
     </StrictMode>
 )
