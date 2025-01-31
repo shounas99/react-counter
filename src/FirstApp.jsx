@@ -3,11 +3,11 @@
 import PropTypes from 'prop-types'
 
 const newMessage = {
-    title: 'Hi',
-    message: 'Hola mundo',
+  title: 'Hi',
+  message: 'Hola mundo',
 }
 const getResult = () => {
-    return 1 + 1
+  return 1 + 1
 }
 
 
@@ -23,8 +23,8 @@ export const FirstApp = ({ title = 'without title', subtitle = 'without subtitle
     <h1>{ title }</h1>
     <p>{ subtitle }</p>
     <h1> { getResult() }</h1>
-        <code>{ JSON.stringify(newMessage)  }</code>
-        <p>Im subtitle</p>
+      <code>{ JSON.stringify(newMessage)  }</code>
+      <p>Im subtitle</p>
     </>
   )
 }
