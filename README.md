@@ -1,6 +1,25 @@
-# React + Vite
+# Counter App 🔢
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses a minimal counter app to showcase the principal uses of React hooks.
+
+## 🛠️ Installation
+
+To execute the project, simply run the following command:
+
+```console
+yarn install
+```
+
+## 🚀 Run the project
+
+To run this project, run the following command:
+```console
+    yarn dev
+```
+
+## 🚦 Usage
+
+For use this project, after execute the before commands, you can see in the principal page a view with a number initialize in twenty, where you have a two buttons to do 'click' to see how to state change, increase or decrease number in principal page.
 
 Currently, two official plugins are available:
 
